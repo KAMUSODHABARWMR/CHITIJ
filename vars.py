@@ -3,15 +3,16 @@
 import os
 from os import environ
 
-API_ID = int(environ.get("API_ID", "25318125"))
-API_HASH = environ.get("API_HASH", "b29fb6a928e8b8a3308f8c2d3ba9cfb0")
+API_ID = int(environ.get("API_ID", "21442913"))
+API_HASH = environ.get("API_HASH", "b95b8bae367e19c3356b9f0004b218c2")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
-OWNER = int(environ.get("OWNER", "7764674199"))
-CREDIT = "𝄟⃝‌🐬𝑳𝑼𝑪𝑰𝑭𝑬𝑹🐬"
-AUTH_USER = os.environ.get('AUTH_USERS', '7764674199').split(',')
+OWNER = int(environ.get("OWNER", "7197125636"))
+CREDIT = "𝄟⃝‌🐬KUNWAR SA SODHA🐬"
+AUTH_USER = os.environ.get('AUTH_USERS', '7197125636').split(',')
 AUTH_USERS = [int(user_id) for user_id in AUTH_USER]
 if int(OWNER) not in AUTH_USERS:
     AUTH_USERS.append(int(OWNER))
   
 #WEBHOOK = True  # Don't change this
 #PORT = int(os.environ.get("PORT", 8080))  # Default to 8000 if not set
+
